@@ -23,7 +23,7 @@ describe('Tests for ExplorerService', () =>{
     const explorers = Reader.readJsonFile("explorers.json");
     const explorersInNode = ExplorerService.filterByMission(explorers, "node");
 
-    expect(explorersInNode.length).toBe(10)
+    expect(explorersInNode.length).toBe(11)
   });
 
 })
