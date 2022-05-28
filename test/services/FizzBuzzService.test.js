@@ -29,5 +29,4 @@ describe("Tests for FizzBuzzService", () =>{
 
         expect(explorer15.trick).toBe("FIZZBUZZ");
     });
-
 });
