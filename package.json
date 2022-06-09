@@ -1,7 +1,7 @@
 {
   "name": "fizzbuzz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Trabajo de análisis de los explorers de LaunchX mediante un FizzBuzz",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -20,5 +20,17 @@
   },
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioRValdivia/FizzBuzz-LaunchX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonioRValdivia/FizzBuzz-LaunchX/issues"
+  },
+  "homepage": "https://github.com/AntonioRValdivia/FizzBuzz-LaunchX#readme"
 }
